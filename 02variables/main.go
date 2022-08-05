@@ -2,20 +2,8 @@ package main
 
 import "fmt"
 
-// Get compiled file using `go tool compile main.go`
-
 func main() {
-	fmt.Println("Hello, World!")
-	concatenate_string()
 	variables()
-}
-
-func concatenate_string() {
-	var username string = "wagslane"
-	var password string = "20947382822"
-
-	// don't edit below this line
-	fmt.Println("Authorization: Basic", username+" : "+password)
 }
 
 func variables() {
@@ -28,10 +16,12 @@ func variables() {
 	fmt.Printf("%v %f %v %q\n", smsSendingLimit, costPerSMS, hasPermission, username)
 
 	// Short Variable declaration
-	// limit := 123
-	// temperature := 0.5
-	// isFunny := true
-	// empty := "Hello"
+	limit := 123
+	temperature := 0.5
+	isFunny := true
+	empty := "Hello"
+
+	fmt.Print(limit, temperature, isFunny, empty)
 
 	// Type Interference
 	j := 1

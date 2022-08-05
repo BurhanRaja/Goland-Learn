@@ -45,5 +45,5 @@ func variables() {
 	fmt.Println(accountAgeInt)
 
 	// Contants
-	const number = 12 // any type can be used here
+	// const number = 12 // any type can be used here
 }

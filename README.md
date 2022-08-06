@@ -12,3 +12,18 @@
 
 ### Go is a strong typed language i.e. you can not change the string "Hello World!!" to int or int to string once declared.
 
+### Memory Management
+
+There are two methods for allocating memory :-
+
+#### new() :- 
+
+- Allocates Memory but no initialization
+- You will get memory address
+- Zeroed Storage, will not able to store anyhting
+
+#### make() :-
+
+- Allocates Memory and initialization takes place
+- You will get memory address
+- Non-zeroed Storage, will able to store anyhting 
